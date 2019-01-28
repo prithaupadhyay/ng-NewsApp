@@ -1,6 +1,6 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 body {
-    padding: 2em 23em; 
-    background:rgb(154, 238, 182);
+    padding: 1em 23em; 
+    background:rgb(227, 230, 227);
 }
