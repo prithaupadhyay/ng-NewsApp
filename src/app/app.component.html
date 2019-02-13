@@ -22,12 +22,12 @@
           <span class="source-name"> 
             {{source.name}}
           </span>
-      
+        
         </mat-list-item>
     </mat-list>
   </mat-sidenav>
   
-  <mat-card class="example-card"  *ngFor="let article of mArticles">
+  <mat-card class="news-card"  *ngFor="let article of mArticles">
     <mat-card-header>
       <div mat-card-avatar [ngStyle]="{'background-image': 'url(../assets/images/'+ article.source.id +'.png)'}" class="example-header-image">
       </div>
@@ -37,14 +37,26 @@
       <mat-card-subtitle>
         {{article.source.name}}
       </mat-card-subtitle>
-
     </mat-card-header>
-    <img mat-card-image class="img-article" src={{article.urlToImage}} alt="">
-    <mat-card-content>
-      <p>
-        {{article.description}}
-      </p>
-    </mat-card-content>
+
+    <table>
+      <tr>
+        <th colspan="3">
+            <img mat-card-image class="img-article" src={{article.urlToImage}} alt="">
+        </th>
+        <th>
+
+        </th>
+        <th>
+            <mat-card-content>
+                <p>
+                  {{article.description}}
+                </p>
+              </mat-card-content>
+        </th>
+      </tr>
+    </table>
+    
     <mat-card-actions class="action-buttons">
       <button mat-button color="primary"><mat-icon>thumb_up_alt</mat-icon> 12 Likes</button>
       <button mat-button color="primary"><mat-icon>comment</mat-icon> Comments</button>

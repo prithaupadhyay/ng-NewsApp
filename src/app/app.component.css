@@ -3,14 +3,14 @@
   }
 
   .navcolor{
-      background-color:#3a4f6a;
+      background-color: #39ad37;
   }
 
   .setting{
       align-content: right;
   }
-
-  .example-card{
+  
+  .news-card{
       margin-top: 4px;
   }
   
@@ -22,10 +22,14 @@
       font-weight: bold;
   }
   
-  .img-article{
+  /* .img-article{
       height: 450px;
-  }
-  
+  } */
+
+  /* .img-article{
+    width: 200px;
+}
+   */
   .action-buttons{
       text-align: center;
   }
