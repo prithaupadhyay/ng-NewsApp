@@ -1,6 +1,6 @@
 <mat-toolbar class="navcolor" color="primary">
 
-  <span>
+  <span id="logo"> 
     News
   </span>  
 
@@ -12,7 +12,7 @@
       <th style="width: 20%">
         <mat-list class="list-nav">
           <mat-list-item class="list-item" *ngFor="let source of mSources" (click)="searchArticles(source.id);sidenav.close();">
-            <div mat-card-avatar [ngStyle]="{'background-image': 'url(../assets/images/'+ source.id +'.png)'}" class="example-header-image">
+            <div mat-card-avatar [ngStyle]="{'background-image': 'url(../assets/images/'+ source.id +'.png)'}" class="list-news-image">
             </div>
           
             <span class="source-name"> 
