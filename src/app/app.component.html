@@ -21,6 +21,7 @@
           </mat-list-item>
         </mat-list>
       </th>
+
       <th>
         <mat-card class="news-card"  *ngFor="let article of mArticles">
           <mat-card-header>
@@ -29,7 +30,7 @@
             <mat-card-title class="title">
               {{article.title}}
             </mat-card-title>
-            <mat-card-subtitle>
+            <mat-card-subtitle id="card-source-name">
               {{article.source.name}}
             </mat-card-subtitle>
           </mat-card-header>
@@ -41,7 +42,7 @@
               </th>
               <th></th>
               <th>
-                <mat-card-content>
+                <mat-card-content id="card-content">
                 <p>
                   {{article.description}}
                 </p>
