@@ -80,13 +80,16 @@
   }
 
   .img-article{
+      margin-left: 3.4em;
       width: 18em;
       height: 12em;
   }
   
 
 #card-content{
-    margin-left: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 0em;
 }
 
 #card-source-name{
