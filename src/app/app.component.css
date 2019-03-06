@@ -27,6 +27,7 @@
   
   .title{
       font-weight: bold;
+      text-align: left;
   }
   
   /* .img-article{
@@ -77,4 +78,18 @@
  .list-news-image{
         background-size: cover;
   }
+
+  .img-article{
+      width: 18em;
+      height: 12em;
+  }
   
+
+#card-content{
+    margin-left: 2em;
+}
+
+#card-source-name{
+    align-content: left;
+    text-align: left;
+}
