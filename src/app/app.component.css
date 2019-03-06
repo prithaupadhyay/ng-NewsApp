@@ -65,7 +65,8 @@
   
   .list-item:hover{
       cursor: pointer;
-      background-color: #3f51b5;
+      /* background-color: #3f51b5; */
+      background-color: #415858;
       color: white;
   }
   
