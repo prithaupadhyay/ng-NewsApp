@@ -81,15 +81,18 @@
 
   .img-article{
       margin-left: 3.4em;
-      width: 18em;
-      height: 12em;
+      width: 25em;
+      height: 15em;
+      align-content: center;
   }
   
 
 #card-content{
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 4em;
     margin-top: 0em;
+    margin-right: 4em;
+    font-size: 1em;
+    text-align: left;
 }
 
 #card-source-name{
